@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should output duplicates across the bundle 1`] = `
+"Found 1 matches
+
+Duplicate 1
+
+bundle.js:80:86
+function foo() {
+  const a = 10;
+  function test1() {
+    return function g1() {};
+  }
+  return \\"124\\";
+}
+
+bundle.js:97:103
+function foo() {
+  const a = 10;
+  function test2() {
+    return function g2() {};
+  }
+  return \\"124\\";
+}
+
+"
+`;

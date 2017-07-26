@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Identify duplicate functions across webpack JS bundles",
   "main": "lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": ["bundle", "duplicates", "webpack"],
   "homepage": "https://github.com/vigneshshanmugam/bundle-duplicates-plugin",
   "repository": {
@@ -16,6 +18,8 @@
     "js-cpa": "^0.1.0"
   },
   "devDependencies": {
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1",
     "webpack": "^3.4.1"
   },
   "files": ["lib", "LICENSE", "README.md"]
