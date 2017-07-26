@@ -1,0 +1,22 @@
+{
+  "name": "bundle-duplicates-plugin",
+  "version": "0.0.1",
+  "description": "Identify duplicate functions across webpack JS bundles",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": ["bundle", "duplicates", "webpack"],
+  "homepage": "https://github.com/vigneshshanmugam/bundle-duplicates-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshshanmugam/bundle-duplicates-plugin.git"
+  },
+  "author": "Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)",
+  "license": "MIT",
+  "dependencies": {
+    "js-cpa": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  },
+  "files": ["lib", "LICENSE", "README.md"]
+}
