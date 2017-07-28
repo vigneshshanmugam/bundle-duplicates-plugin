@@ -1,6 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should output duplicates across the bundle 1`] = `
+exports[`common chunks - should output duplicates 1`] = `
+"Found 1 matches
+
+Duplicate 1
+
+page2.js:10:12
+function page2() {
+  const b = 20;
+}
+
+page1.js:8:10
+function page1() {
+  const a = 20;
+}
+
+commons.js:154:156
+function common() {
+  const c = 20;
+}
+
+"
+`;
+
+exports[`simple - should output duplicates 1`] = `
 "Found 1 matches
 
 Duplicate 1
