@@ -1,6 +1,9 @@
 # bundle-duplicates-plugin
 Identify duplicate functions across all webpack JS bundles.
 
+### Features
++ Works across Common chunks & Code Splitted bundles
+
 It uses [js-cpa](https://github.com/vigneshshanmugam/js-cpa/) for analysing the duplicates.
 
 ### Install
@@ -28,4 +31,7 @@ module.exports = {
 ### Options
 
 All options as mentioned [here](https://github.com/vigneshshanmugam/js-cpa/#options)
+
+### Ideas
++ Custom Repoters to visualize the duplicates across bundle
 
